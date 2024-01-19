@@ -3,6 +3,7 @@ body { background-color: #666;}
 .card,
 .card * {
   box-sizing: border-box;
+  position: relative;
 }
 .card {
   display: flex;
@@ -10,7 +11,6 @@ body { background-color: #666;}
   gap: 10px;
   align-items: flex-start;
   justify-content: flex-start;
-  position: relative;
   margin: 300px;
 }
 .w-box {
@@ -20,6 +20,7 @@ body { background-color: #666;}
   position: static;
 }
 .box {
+    position: relative;
   background: #ffffff;
   border-radius: 30.3px 0px 30.3px 0px;
   width: 664.54px;
@@ -29,6 +30,8 @@ body { background-color: #666;}
   top: 0px;
 }
 .text {
+    position: absolute;
+    left: 180px;
   display: flex;
   flex-direction: row;
   gap: 144px;
@@ -70,7 +73,7 @@ body { background-color: #666;}
   color: var(--sk-pic-point-color, #e0002b);
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
-  font-size: 14.13907241821289px;
+  font-size: 13px;
   font-weight: 700;
   position: relative;
   width: 115px;
